@@ -65,8 +65,11 @@ const startGameLoop = () => {
 // Inicia o jogo
 startGameLoop();
 
-// Adiciona evento para o pulo
+// Adiciona evento para o pulo com teclado (computadores)
 document.addEventListener('keydown', jump);
+
+// Adiciona evento para o pulo com toque (dispositivos móveis)
+document.addEventListener('touchstart', jump);
 
 // Adiciona evento ao botão Restart
 restartButton.addEventListener('click', resetGame);
