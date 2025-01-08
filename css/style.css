@@ -105,15 +105,15 @@
         }
 
         40% {
-            bottom: 250px; /* Aumente a altura do pulo no PC */
+            bottom: 180px; /* Aumente a altura do pulo no PC */
         }
 
         50% {
-            bottom: 250px;
+            bottom: 180px;
         }
 
         60% {
-            bottom: 250px;
+            bottom: 180px;
         }
 
         100% {
