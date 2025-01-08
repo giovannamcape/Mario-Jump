@@ -5,7 +5,7 @@ const gameOverScreen = document.getElementById('game-over-screen'); // A tela de
 const restartButton = document.getElementById('restart-button'); // O botão de Restart
 
 let isGameActive = true;  // Variável para verificar se o jogo está em andamento
-
+let isJumping = false;    // Para controlar o estado do pulo
 
 // Função para exibir o fundo transparente e a tela de Game Over
 const showGameOver = () => {
