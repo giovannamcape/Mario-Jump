@@ -18,7 +18,7 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    animation: pipe-animation 1.5s infinite linear; 
+    animation: pipe-animation 1.5s infinite linear;
 }
 
 .mario {
@@ -61,7 +61,7 @@
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #f00;
+    background-color: rgb(0, 0, 0);
     color: #fff;
     border: none;
     border-radius: 5px;
