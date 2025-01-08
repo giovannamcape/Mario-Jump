@@ -30,7 +30,7 @@ const resetGame = () => {
 const jump = () => {
     mario.classList.add('jump');
 
-    setTimeout(() => {
+        setTimeout(() => {
         mario.classList.remove('jump');
     }, 500);
 };
@@ -46,19 +46,19 @@ const startGameLoop = () => {
 
         if (pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
             // Quando o Mario colide com o cano
-            pipe.style.animation = 'none';
-            pipe.style.left = `${pipePosition}px`;
+                pipe.style.animation = 'none';
+                pipe.style.left = `${pipePosition}px`;
 
-            mario.style.animation = 'none';
-            mario.style.bottom = `${marioPosition}px`;
+                mario.style.animation = 'none';
+                mario.style.bottom = `${marioPosition}px`;
 
-            mario.src = './images/game-over.png';
-            mario.style.width = '75px';
-            mario.style.marginLeft = '50px';
+                mario.src = './images/game-over.png';
+                mario.style.width = '75px';
+                mario.style.marginLeft = '50px';
 
-            clearInterval(gameLoop); // Para o loop
-            showGameOver(); // Exibe o fundo transparente e a tela de Game Over
-        }
+                clearInterval(gameLoop); // Para o loop
+                showGameOver(); // Exibe o fundo transparente e a tela de Game Over
+            }
     }, 10);
 };
 
