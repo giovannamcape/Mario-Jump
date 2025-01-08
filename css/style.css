@@ -28,7 +28,7 @@
 }
 
 .jump {
-    animation: jump 0.8s ease-out; /* Definindo o tempo do pulo */
+    animation: jump 0.8s ease-out; 
 }
 
 .clounds {
@@ -97,7 +97,7 @@
     }
 }
 
-/* Para telas maiores (computadores), ajuste o valor da altura do pulo */
+/* Pulo Computador */
 @media (min-width: 768px) {
     @keyframes jump {
         0% {
@@ -105,7 +105,7 @@
         }
 
         40% {
-            bottom: 180px; /* Aumente a altura do pulo no PC */
+            bottom: 180px; 
         }
 
         50% {
