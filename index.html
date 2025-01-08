@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    
+
+    <title>Mario Jump</title>
+</head>
+<body>
+    <div id="game-container">
+        <!-- Conteúdo do jogo aqui -->
+      </div>
+      
+      <!-- Tela de Game Over e fundo transparente -->
+    <div id="overlay" class="hidden">
+        <div id="game-over-screen">
+            <img src="./images/gameover.png" alt="Game Over" id="game-over-image">
+            <button id="restart-button">Restart</button>
+        </div>
+    </div>
+
+    <div class="game-board">
+
+        <img src="./images/clouds.png" class="clounds">
+        <img src="./images/mario.gif" class="mario">
+        <img src="./images/pipe.png" class="pipe">
+
+    </div>
+</body>
+    <script src="./js/script.js" defer></script>
+</html>
